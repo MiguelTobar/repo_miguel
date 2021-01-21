@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+     <!--Descripciones-->
+     <meta name="description" content="Think Mendoza, Programacion Web, Diseño Grafico, Mantenimiento.">
+     <meta name="keywords" content="HTML, Web, Diseño, Mantenimiento, Mendoza, desarrollo">
+     <!--BootstrapCDN-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"></script>
+
+     <!--Script Dropdowns-->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+     <!--Google Fonts-->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap" rel="stylesheet">
+     <!--Favicon-->
+     <link rel="icon" href="img/favicon.png" type="image/png" />
+
+    
+</head>
+
+<body>
+    <header class="site-header contenedor">
+        <img src="img/logotm.png" alt="logotipo">
+    </header>
+
+    <div class="barra">
+        <a href="#nav" class="mobile-menu">
+            <i class="fas fa-ellipsis-v"></i>
+        </a>
+
+        <nav id="nav" class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="Blog.html">Blog</a>
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="Contacto.html">Contacto</a>
+
+            <a href="#" class="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+        </nav>
+    </div>
+
+    <div class="contenedor clearfix">
+        <main class="contenido-principal">
+            <article class="entrada">
+
+                <h2>Completa los datos y nos pondremos a la brevedad en contacto contigo.</h2>
+
+                <div class="container">
+                    <form action="/action_page.php">
+                        <label for="fname">Nombre</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Por favor ingrese su nombre ...">
+
+                        <label for="lname">Apellido</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Por favor ingrese su apellido ...">
+
+                        <label for="country">¿Sobre que lo podemos asesorar ?</label>
+                        <select id="country" name="country">
+                            <option value="Diseño Grafico">Diseño Grafico</option>
+                            <option value="Diseño Web">Diseño Web</option>
+                            <option value="Mantenimiento">Mantenimiento</option>
+                        </select>
+
+                        <label for="subject">Comentario</label>
+                        <textarea id="subject" name="subject" placeholder="Por favor, ingrese su comentario aqui ..."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <section class="otras-entradas">
+                <center>
+                    <h2>Otros canales de comunicacion</h2>
+                </center>
+                <h3>Mail</h3>
+                <p>
+                    metallimi@hotmail.com
+                    <br>
+                    tobar.mig@gmail.com
+                </p>
+                <hr>
+                <hr>
+                <br>
+                <a href="https://api.whatsapp.com/send?phone=542616404103&text=Hola%20que%20tal%20soy%20Mi
+               guel%20Tobar%2C%20escribime%20as%C3%AD%20nos%20ponemos%20en%20contacto.%0AMuchas%20
+               gracias."> Hablemos por Whatsapp </a>
+                <hr>
+                <hr>
+                
+                <div class="container">
+                    <h2>Redes Sociales</h2>
+                    <p>Te dejo mis redes aqui abajo</p>
+                    <p>Seguime y mantegamos el contacto</p>
+                                                          
+                    <div class="dropdown">
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Seguime
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="http://tobarmiguel.com.ar/">Mi Web</a>
+                        <a class="dropdown-item" href="https://twitter.com/Migue_Tobar">Twitter</a>
+                        <a class="dropdown-item" href="https://www.instagram.com/think_mendoza/">Instagram</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+            </section>
+
+        </aside>
+
+    </div>
+    <!--.contenedor-->
+
+    <footer class="footer-sitio">
+        <div class="contenedor clearfix">
+            <section class="nosotros">
+                <h2>Acerca de este sitio</h2>
+                <p>Hasta el momento este sitio esta siendo estructurado con HTML5,
+                    todo lo visual lo estoy desarrollando con CSS3. El armado de esta web va
+                    creciendo a medida que avanzo en el curso que actualmente estoy haciendo
+                    agregando herramientas enla carrera de "FRONT END" en CODERHOUSE</p>
+            </section>
+            <section class="menu">
+                <h2>Mapa de sitio</h2>
+                <nav>
+                    <div class="btn">
+                        <a href="index.html">Inicio</a>
+                        <a href="Blog.html">Blog</a>
+                        <a href="Nosotros.html">Nosotros</a>
+                        <a href="Contacto.html">Contacto</a>
+                    </div>
+                </nav>
+            </section>
+        </div>
+        <p class="copyright">Tobar Miguel - Todos los derechos Reservados 2021 &copy;</p>
+    </footer>
+</body>
+
+</html>
